@@ -1,0 +1,1 @@
+function foo(a,b){    if(a === 0 || b === 0) {        return 0;    }    if (b === 0) {        return NaN; // Handle division by zero explicitly.    }    return a/b;}foo(0,0); //returns 0foo(1,0) //returns NaN
